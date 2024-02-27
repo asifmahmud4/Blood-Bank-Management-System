@@ -1,0 +1,43 @@
+body{
+    background-color:lightsteelblue;
+}
+
+.header {
+    width: 100%;
+    height: 80px; /* You have 'height: auto;' and then 'height: 80px;' – use one of them */
+    background-color: darkred;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  .banner {
+    width: 100%;
+    height: 250px;
+    background: url('fuel.jpg');
+    background-size: 40%; /* 'background-size: 100%;' should be 'background-size: cover;' */
+  }
+  
+  .container {
+    width: 100%;
+    height: 300px;
+    
+  }
+  
+  .footer {
+    width: 100%;
+    height: 50px;
+    background: darkred;
+    color: white;
+  }
+  
+  #a, #b, #c, #d, #e, #f, #g, #h{
+    width: 6%;
+    height: 40px;
+    float: left;
+    text-align: left;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+  }
